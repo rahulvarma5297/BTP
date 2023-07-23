@@ -1,0 +1,5 @@
+To modify the provided code to incorporate the logic you mentioned into the configurable_model class, you can replace the existing _convblock method with the new logic. Here's the updated code:
+
+In this updated code, I replaced the _convblock method with the logic you provided for the GRU-based text classification model. The configurable_model class now takes input shape, GRU units, dense units, and dense activation as arguments in its constructor. The build_model method creates the model architecture based on the provided parameters and returns the compiled model.
+
+You can adjust the values of input_shape, gru_units, dense_units, and dense_activation according to your requirements.
